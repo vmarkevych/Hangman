@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.container
+{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    margin-left: 80px; 
+}
+
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; 
+
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Cinzel', serif;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center; 
+
+}
+
+body {
+    font-family: 'Cinzel',sans-serif;
+background: url(http://images.nobleknight.com/resize.aspx?filename=Hangmanlogo.gif&width=300&height=150&nowm=true);
+font-size: 18px;
+    
+}
+
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    text-align: center;
+    color: black;
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.correct {
+    background-color: green;
+    transition: all 1s ease;
+}
+.error {
+    color: red;
+    opacity: 1;
+}
+.warning {
+    color: orange;
+    opacity: 1;
+}
+.win {
+    color: green;
+    opacity: 1;
+}
